@@ -3,6 +3,7 @@ import "./App.css";
 import "bulma/css/bulma.css";
 import Nav from "./Nav.js";
 import FormField from "./FormField.js";
+import CoolButton from "./CoolButton.js";
 
 class App extends Component {
   render() {
@@ -18,6 +19,18 @@ class App extends Component {
           type="email"
           placeholder="e.g. alexsmith@gmail.com"
         />
+      </div>
+    );
+  }
+  render() {
+    return (
+      <div className="App container">
+        <CoolButton isSmall isDanger className="is-rounded my-class">
+          Button 1
+        </CoolButton>
+        <CoolButton isSmall isSuccess>
+          Button 2
+        </CoolButton>
       </div>
     );
   }
