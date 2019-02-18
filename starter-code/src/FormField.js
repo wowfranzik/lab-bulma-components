@@ -8,7 +8,7 @@ class FormField extends Component {
     const { label, type, placeholder } = this.props;
     return (
       <div>
-        <div class="class">
+        <div class="field">
           <label class="label">{label}</label>
           <div class="control">
             <input class="input" type={type} placeholder={placeholder} />
