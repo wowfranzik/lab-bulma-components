@@ -7,9 +7,9 @@ class CoolButton extends Component {
     return (
       <div>
         <button class="button is-rounded my-class is-danger is-small">
-          Button 1
+          Login
         </button>
-        <button class="button is-small is-success">Button 2</button>
+        <button class="button is-small is-success">Signup</button>
       </div>
     );
   }
